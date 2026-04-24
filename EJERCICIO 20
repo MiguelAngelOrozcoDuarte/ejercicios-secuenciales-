@@ -1,0 +1,17 @@
+//PROCESO PARA CALCULAR LA CANTIDAD DE MONEDAS QUE TIENE EN EUROS Y CENTIMOS
+PROCESO CALCULARLACANTIDADDEMONEDASQUETIENE
+ ESCRIBIR "CANTIDAD DE MONEDAS DE 2€"
+ LEER M2
+ ESCRIBIR "CANTIDAD DE MONEDAS DE 1€"
+ LEER M1
+ ESCRIBIR "CANTIDAD DE MONEDAS DE 50 CENTIMOS"
+ LEER M50
+ Escribir "Cantidad de monedas de 20 centimos:"
+ Leer m20
+ Escribir "Cantidad de monedas de 10 centimos:"
+ Leer m10
+ TOTAL = (m2 * 200) + (m1 * 100) + (m50 * 50) + (m20 * 20) + (m10 * 10)
+ euros = total / 100
+ centimos = total MOD 100
+ Escribir "Tienes: ", euros, " euros y ", centimos, " centimos"
+FINPROCESO
