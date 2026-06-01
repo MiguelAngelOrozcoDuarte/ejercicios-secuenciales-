@@ -1,0 +1,17 @@
+Proceso VerificarPrimo
+    Definir nume, i, contador Como Entero
+	Escribir "INGRESE UN NUMERO ENTERO"
+	Leer nume
+	contador = 0
+	PARA i = 1 Hasta nume
+		si nume MOD i = 0 Entonces
+			contador = contador + 1
+			
+		FinSi
+	FinPara
+	si contador = 2 Entonces
+		Escribir "ES PRIMO"
+	SiNo
+		Escribir "NO ES PRIMO"
+	FinSi
+FinProceso
